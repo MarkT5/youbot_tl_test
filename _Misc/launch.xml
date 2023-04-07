@@ -1,0 +1,3 @@
+<launch>
+  <node name="youbot_tl_test" pkg="youbot_tl_test" type="youbot_tl_test" output="screen" />
+</launch>

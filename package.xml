@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_tl_test</name>
+  <version>0.2.0</version>
+  <description>
+
+     youbot_tl_test
+
+  </description>
+  <maintainer email="user3@gmail.com">MSTU MIREA</maintainer>
+  <author>MSTU MIREA, CPD</author>
+  <license>BSD</license>
+  <!-- <url type="bugtracker">https://github.com/stonier/qt_ros/issues</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>opencv2</build_depend>
+  <run_depend>opencv2</run_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>brics_actuator</build_depend>
+  <run_depend>brics_actuator</run_depend>
+  <build_depend>nav_msgs</build_depend>
+  <run_depend>nav_msgs</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+ 
+</package>

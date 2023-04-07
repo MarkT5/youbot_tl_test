@@ -1,0 +1,11 @@
+<launch>
+  <node 
+    name="youbot_tl_test" 
+    pkg="youbot_tl_test" 
+    type="youbot_tl_test" 
+    respawn="true"
+    output="screen" />
+  
+  <!--<include file="$(find find_object_2d)/launch/find_object_2d.launch"/>-->
+  <include file="$(find youbot_driver_ros_interface)/launch/youbot_driver.launch"/>
+</launch>
